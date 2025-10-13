@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+/* Uncial Antiqua – fantasy clasic */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+/* MedievalSharp – scris de mână medieval */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/* Pirata One – gotic, masiv */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/* Almendra SC – vibe cărți vechi / pergament */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Anton&family=Russo+One&family=Orbitron&display=swap');
+
+
+.navbar{position: fixed; background-color: #111; z-index: 1000; display: inline-flex; flex-direction: row; height: 11vh; width: 100vw; border-bottom: 2px solid #333; top: 0rem; left: 0rem; padding: 0; margin: 0; justify-content: center; align-items: center;}
+.nav-item { color: white; font-weight: bold; font-size: 0.8rem; text-decoration: none; font-family: 'Arial', sans-serif; border-radius: 0.5rem; padding: 6px 12px; display: inline-block; position: relative; transition: background-color 0.2s ease, color 0.2s ease; }
+.nav-item:hover { background-color: #555; color: goldenrod; }
+.nav-item:hover::after { content: ""; position: absolute; left: 0; bottom: -0.8rem; right: 0; height: 0.5rem; background-color: rgb(7, 140, 181); }
+.play-now { text-decoration: none; background-color: #008bf6; color: #ffffff; font-size: 1rem; font-weight: bold; height: 6vh; font-family:'Arial'; border-radius: 0.7rem; text-align: center; display: flex; align-items: center; justify-content: center; width: 10vw; height: 5vh; cursor:pointer; }
+.miscs{ display: flex; flex-direction: row; gap: 0.4rem; width: 30%; height: 100%; justify-content: flex-end; align-items: center; box-sizing: border-box; padding-right: 1.8rem;}
+.misc-item{ size: 20; color: white; padding: 1rem 1.2rem; border-radius: 1rem; }
+.misc-item:hover{ background-color: #555; }
+.contents{ display: flex; flex-direction: row; gap: 1.2rem; width: 70%; height: 100%; justify-content: flex-start; align-items: center; box-sizing: border-box; padding-left: 1.5rem; }
+
+
+.page {position:absolute;top:0;left:0;width:100vw;min-height:100vh;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;padding-top:10vh;gap:0;margin:0;}
+.page-tableau {width:100%;min-height:40rem;display:flex;padding:0;margin:0;font-family:'Marcellus SC';font-size:3rem;}
+.game-title {font-family:'Cinzel Decorative',serif;font-size:5.7rem;font-weight:900;background:linear-gradient(90deg,gold,orange,red);-webkit-background-clip:text;color:transparent;text-shadow:0 0 10px rgba(255,140,0,0.8),0 0 20px rgba(255,69,0,0.8);letter-spacing:5px;}
+.introduction-title {font-family:'Cormorant Garamond';font-size:3rem;color:goldenrod;font-weight:bold;text-shadow:0 0 10px rgba(255,140,0,0.8);}
+@media (max-width:1280px) {.game-title{font-size:3.5rem;letter-spacing:3px;}.introduction-title{font-size:2rem;}}
+@media (max-width:768px) {.game-title{font-size:2.5rem;letter-spacing:2px;}.introduction-title{font-size:1.5rem;}}
+
+
+.play-now-gold-enhanced { max-width: 20rem; max-height: 10rem; font-size: 3rem; font-family: 'Pirata One'; font-weight: bold; background: linear-gradient(45deg, #ff8a00, #e52e71); color: whitesmoke; padding: 1rem 2rem; border: none; box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); cursor: pointer; transition: background 0.3s ease, box-shadow 0.3s ease; animation: breathe 2s ease-in-out infinite; }
+.play-now-gold-enhanced:hover { background: linear-gradient(45deg, #ff8a02, #e52e70); box-shadow: 0 0 20px rgba(255, 160, 0, 0.9); }
+@media (max-width: 80rem) { .play-now-gold-enhanced { max-width: 15rem; max-height: 7rem; font-size: 2rem; padding: 0.8rem 1.5rem; } }
+
+.footer{background-color:#1c1c1c;display:flex;width:100%;flex-direction:column;box-sizing:border-box;padding:2rem 7rem;color:whitesmoke;font-family:Arial,sans-serif;font-size:1.3rem;justify-content:center;align-items:center;gap:1rem;}
+.services-in-footer-row-nonmodification{display:flex;width:100%;flex-direction:row;padding:0;margin:0;justify-content:center;align-items:center;gap:2rem;flex-wrap:wrap;}
+.services-in-footer{display:flex;width:100%;flex-direction:row;padding:0;margin:0;justify-content:center;align-items:center;gap:0.5rem;flex-wrap:wrap;}
+.footer-links{font-weight:900;text-decoration:none;color:#ff8a02;padding:0.3rem 1rem;border-radius:5rem;transition:background-color 0.3s ease;}
+.footer-links:hover{background-color:#666;}
+.socials{width:2.5rem;height:2.5rem;flex:0 0 auto;}
+.pegis{width:9rem;height:11rem;object-fit:cover;background-color:#111;}
+@media(max-width:80rem){.footer{padding:2rem 3rem;height:fit-content;}.socials{width:1.8rem;height:1.8rem;}.pegis{width:5rem;height:6rem;}.services-in-footer{flex-direction:row;flex-wrap:wrap;gap:1rem;}.services-in-footer .footer-links{flex:1 1 calc(33.33% - 1rem);text-align:center;}}
+@media(max-width:40rem){.services-in-footer .footer-links{flex:1 1 calc(50% - 1rem);}.pegis{flex:1 1 calc(50% - 1rem);}}
+
+
+.gameplay-mini-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #FFD700, #FF8C00, #FFA500); /* gold → dark orange → fiery orange */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*Prefooter information about apps services not related to client but to platform itself*/
+.pre-footer{background-color:#444;display:flex;flex-wrap:wrap;width:100%;padding:2rem 7rem;color:whitesmoke;font-family:Arial,sans-serif;font-size:1rem;justify-content:center;align-items:center;gap:1rem;border-top:0.1rem solid #bbb;box-sizing:border-box;}
+.pre-footer-links{font-weight:900;text-decoration:none;color:whitesmoke;padding:0.3rem 1rem;border-radius:5rem;transition:background-color 0.3s ease;}
+.pre-footer-links:hover{background-color:#d63333;}
+@media(max-width:80rem){.pre-footer{justify-content:flex-start;padding:2rem 3rem;}.pre-footer-links{flex:1 1 calc(33.33% - 1rem);text-align:center;}}
+@media(max-width:40rem){.pre-footer-links{flex:1 1 calc(50% - 1rem);}}
+
+
+
+/*stil pentru zona de pagina de eroi in client static am thumbnail si la more chemm de pe server --- nu incarc inutil nimic*/
+.grid {display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;padding:1.5rem 5rem;}
+.hero-card {background:#222;border-radius:.5rem;overflow:hidden;text-align:center;cursor:pointer;display:flex;flex-direction:column;transition:box-shadow .3s ease;box-shadow:0 2px 10px rgba(0,0,0,.3);}
+.hero-card img {width:100%;height:26rem;object-fit:cover;display:block;transition:transform .3s ease;}
+.hero-card:hover img {transform:scale(1.1);}
+.hero-card:hover {box-shadow:0 10px 25px rgba(0,0,0,.6);}
+.hero-card-name {background:#b22222;color:#fff;font-family:'Cinzel'; z-index: 3; font-weight:900;font-size:1.2rem;padding:.5rem 0;text-align:center;transition:background .3s ease;}
+.hero-card:hover .hero-card-name {background:#ff4c4c;}
+@media (max-width:80rem){.grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:40rem){.grid{grid-template-columns:1fr;}}
+
+
+@keyframes pulse {
+  0%,100% { transform: scaleY(1); opacity: 0.8; }
+  50% { transform: scaleY(1.1); opacity: 1; }
+}
+
+.champions-category-label {
+  color: black;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.champions-category-label:hover {
+  color: white;
+  background: linear-gradient(135deg, #00e6e6, #00ff99); /* cian-verzui */
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.7), 
+              0 0 24px rgba(0, 255, 200, 0.5);
+  transform: scale(1.08); /* un mic efect de "pop" */
+}

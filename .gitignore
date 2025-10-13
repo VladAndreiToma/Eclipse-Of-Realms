@@ -1,0 +1,15 @@
+# Node.js dependencies
+client/node_modules/
+server/node_modules/
+
+# Environment files
+client/.env
+server/.env
+
+# Docker / monitoring runtime (optional)
+server/grafana/data/
+server/grafana/log/
+server/prometheus_data/
+
+# Logs
+*.log

@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "name": "Aakrinox",
+        "thumbnail": "/heroes/Aakrinox.webp"
+    },
+    {
+        "id": 2,
+        "name": "Aarok",
+        "thumbnail": "/heroes/Aarok.webp"
+    },
+    {
+        "id": 3,
+        "name": "Abzo'Dolba",
+        "thumbnail": "/heroes/Abzo'Dolba.webp"
+    },
+    {
+        "id": 4,
+        "name": "Aeloria",
+        "thumbnail": "/heroes/Aeloria.webp"
+    },
+    {
+        "id": 5,
+        "name": "Ah Puch",
+        "thumbnail": "/heroes/Ah Puch.webp"
+    },
+    {
+        "id": 6,
+        "name": "Arivelle",
+        "thumbnail": "/heroes/Arivelle.webp"
+    },
+    {
+        "id": 7,
+        "name": "Belzevorth",
+        "thumbnail": "/heroes/Belzevorth.webp"
+    },
+    {
+        "id": 8,
+        "name": "Braxifer The Defiler",
+        "thumbnail": "/heroes/Braxifer The Defiler.webp"
+    },
+    {
+        "id": 9,
+        "name": "Calyndor",
+        "thumbnail": "/heroes/Calyndor.webp"
+    },
+    {
+        "id": 10,
+        "name": "Celesthya",
+        "thumbnail": "/heroes/Celesthya.webp"
+    },
+    {
+        "id": 11,
+        "name": "Chiroptra",
+        "thumbnail": "/heroes/Chiroptra.webp"
+    },
+    {
+        "id": 12,
+        "name": "Cyradion",
+        "thumbnail": "/heroes/Cyradion.webp"
+    },
+    {
+        "id": 13,
+        "name": "Daztan",
+        "thumbnail": "/heroes/Daztan.webp"
+    },
+    {
+        "id": 14,
+        "name": "Death Gear",
+        "thumbnail": "/heroes/Death Gear.webp"
+    },
+    {
+        "id": 15,
+        "name": "Dr.Plagren",
+        "thumbnail": "/heroes/Dr.Plagren.webp"
+    },
+    {
+        "id": 16,
+        "name": "Drae'Lon",
+        "thumbnail": "/heroes/Drae'Lon.webp"
+    },
+    {
+        "id": 17,
+        "name": "Draevin",
+        "thumbnail": "/heroes/Draevin.webp"
+    },
+    {
+        "id": 18,
+        "name": "Duskveil",
+        "thumbnail": "/heroes/Duskveil.webp"
+    },
+    {
+        "id": 19,
+        "name": "Elowen",
+        "thumbnail": "/heroes/Elowen.webp"
+    },
+    {
+        "id": 20,
+        "name": "Fenrahl the HríðBærer",
+        "thumbnail": "/heroes/Fenrahl the HríðBærer.webp"
+    },
+    {
+        "id": 21,
+        "name": "Gizmo",
+        "thumbnail": "/heroes/Gizmo.webp"
+    },
+    {
+        "id": 22,
+        "name": "Grimoldis",
+        "thumbnail": "/heroes/Grimoldis.webp"
+    },
+    {
+        "id": 23,
+        "name": "Ignis",
+        "thumbnail": "/heroes/Ignis.webp"
+    },
+    {
+        "id": 24,
+        "name": "Il'Shyra",
+        "thumbnail": "/heroes/Il'Shyra.webp"
+    },
+    {
+        "id": 25,
+        "name": "Ixchil",
+        "thumbnail": "/heroes/Ixchil.webp"
+    },
+    {
+        "id": 26,
+        "name": "Kael",
+        "thumbnail": "/heroes/Kael.webp"
+    },
+    {
+        "id": 27,
+        "name": "Kar'Li",
+        "thumbnail": "/heroes/Kar'Li.webp"
+    },
+    {
+        "id": 28,
+        "name": "Lio'Rhen",
+        "thumbnail": "/heroes/Lio'Rhen.webp"
+    },
+    {
+        "id": 29,
+        "name": "Liryelle",
+        "thumbnail": "/heroes/Liryelle.webp"
+    },
+    {
+        "id": 30,
+        "name": "Llavae",
+        "thumbnail": "/heroes/Llavae.webp"
+    },
+    {
+        "id": 31,
+        "name": "Lt.Drake The Avanger",
+        "thumbnail": "/heroes/Lt.Drake The Avanger.webp"
+    },
+    {
+        "id": 32,
+        "name": "Lunareth",
+        "thumbnail": "/heroes/Lunareth.webp"
+    },
+    {
+        "id": 33,
+        "name": "Malrakar",
+        "thumbnail": "/heroes/Malrakar.webp"
+    },
+    {
+        "id": 34,
+        "name": "Morgrath Stonehide",
+        "thumbnail": "/heroes/Morgrath Stonehide.webp"
+    },
+    {
+        "id": 35,
+        "name": "Morivelle",
+        "thumbnail": "/heroes/Morivelle.webp"
+    },
+    {
+        "id": 36,
+        "name": "Na'Quor'a",
+        "thumbnail": "/heroes/Na'Quor'a.webp"
+    },
+    {
+        "id": 37,
+        "name": "Nyxara",
+        "thumbnail": "/heroes/Nyxara.webp"
+    },
+    {
+        "id": 38,
+        "name": "Onyxia",
+        "thumbnail": "/heroes/Onyxia.webp"
+    },
+    {
+        "id": 39,
+        "name": "Osytra",
+        "thumbnail": "/heroes/Osytra.webp"
+    },
+    {
+        "id": 40,
+        "name": "Pyrrathiel",
+        "thumbnail": "/heroes/Pyrrathiel.webp"
+    },
+    {
+        "id": 41,
+        "name": "Quetzalli",
+        "thumbnail": "/heroes/Quetzalli.webp"
+    },
+    {
+        "id": 42,
+        "name": "Ravagar",
+        "thumbnail": "/heroes/Ravagar.webp"
+    },
+    {
+        "id": 43,
+        "name": "Scarlet",
+        "thumbnail": "/heroes/Scarlet.webp"
+    },
+    {
+        "id": 44,
+        "name": "Serphex",
+        "thumbnail": "/heroes/Serphex.webp"
+    },
+    {
+        "id": 45,
+        "name": "Skavoryn",
+        "thumbnail": "/heroes/Skavoryn.webp"
+    },
+    {
+        "id": 46,
+        "name": "Sylvara",
+        "thumbnail": "/heroes/Sylvara.webp"
+    },
+    {
+        "id": 47,
+        "name": "Tartarus The Abyss Conquerer",
+        "thumbnail": "/heroes/Tartarus The Abyss Conquerer.webp"
+    },
+    {
+        "id": 48,
+        "name": "Tezcatlipoca",
+        "thumbnail": "/heroes/Tezcatlipoca.webp"
+    },
+    {
+        "id": 49,
+        "name": "Thaliaelsyn",
+        "thumbnail": "/heroes/Thaliaelsyn.webp"
+    },
+    {
+        "id": 50,
+        "name": "Vellyra",
+        "thumbnail": "/heroes/Vellyra.webp"
+    },
+    {
+        "id": 51,
+        "name": "Volcarion",
+        "thumbnail": "/heroes/Volcarion.webp"
+    },
+    {
+        "id": 52,
+        "name": "War Machine",
+        "thumbnail": "/heroes/War Machine.webp"
+    },
+    {
+        "id": 53,
+        "name": "Xeroth",
+        "thumbnail": "/heroes/Xeroth.webp"
+    },
+    {
+        "id": 54,
+        "name": "Xyrith",
+        "thumbnail": "/heroes/Xyrith.webp"
+    },
+    {
+        "id": 55,
+        "name": "Zaroq",
+        "thumbnail": "/heroes/Zaroq.webp"
+    },
+    {
+        "id": 56,
+        "name": "Zephesterus Bringer of Ruin",
+        "thumbnail": "/heroes/Zephesterus Bringer of Ruin.webp"
+    },
+    {
+        "id": 57,
+        "name": "Zorgrum",
+        "thumbnail": "/heroes/Zorgrum.webp"
+    },
+    {
+        "id": 58,
+        "name": "Zyrh'Kaal",
+        "thumbnail": "/heroes/Zyrh'Kaal.webp"
+    }
+]
