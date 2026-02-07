@@ -39,7 +39,7 @@ services:
     container_name: mongodb_exporter
     restart: always
     environment:
-      MONGODB_URI: ${MONGO_URI}  # folosit URI-ul din .env
+      MONGODB_URI: "mongodb://mongo:27017"  # <--- mongo = numele serviciului
     ports:
       - "9216:9216"
     networks:
@@ -50,11 +50,12 @@ services:
     container_name: redis_exporter
     restart: always
     command:
-      - "--redis.addr=${REDIS_URI}"  # folosit URI-ul din .env
+      - "--redis.addr=redis://redis:6379"  # <--- redis = numele serviciului
     ports:
       - "9121:9121"
     networks:
       - monitoring
+
 
   grafana:
     image: grafana/grafana:10.1.2
